@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "==2.5.0"
+matplotlib = "*"
+pandas = "*"
+scikit-learn = "*"
+seaborn = "*"
+
+[dev-packages]
+ipykernel = "*"
+autopep8 = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
